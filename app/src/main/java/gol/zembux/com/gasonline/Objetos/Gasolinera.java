@@ -8,17 +8,20 @@ public class Gasolinera {
     private String Grupo;
     private int Calificacion;
     private String Direccion;
-    private int PrecioMagna;
-    private int PrecioPremium;
-    private int PrecioDiesel;
+    private double PrecioMagna;
+    private double PrecioPremium;
+    private double PrecioDiesel;
 
     public Gasolinera(){
 
     }
-    public Gasolinera(String Grupo, int Calificacion){
+    public Gasolinera(String Grupo, int Calificacion, String Direccion, double PrecioMagna, double PrecioPremium, double PrecioDiesel){
         this.setGrupo(Grupo);
         this.setCalificacion(Calificacion);
         this.setDireccion(Direccion);
+        this.setPrecioMagna(PrecioMagna);
+        this.setPrecioPremium(PrecioPremium);
+
 
     }
 
@@ -46,27 +49,19 @@ public class Gasolinera {
         Direccion = direccion;
     }
 
-    public int getPrecioMagna() {
-        return PrecioMagna;
+    public void setPrecioDiesel(int precioDiesel) {
+        PrecioDiesel = precioDiesel;
     }
 
-    public void setPrecioMagna(int precioMagna) {
+    public void setPrecioMagna(double precioMagna) {
         PrecioMagna = precioMagna;
     }
 
-    public int getPrecioPremium() {
-        return PrecioPremium;
-    }
-
-    public void setPrecioPremium(int precioPremium) {
+    public void setPrecioPremium(double precioPremium) {
         PrecioPremium = precioPremium;
     }
 
-    public int getPrecioDiesel() {
-        return PrecioDiesel;
-    }
-
-    public void setPrecioDiesel(int precioDiesel) {
+    public void setPrecioDiesel(double precioDiesel) {
         PrecioDiesel = precioDiesel;
     }
 }

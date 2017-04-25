@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "641937869102",
+    "firebase_url": "https://gasonline-e9fc3.firebaseio.com",
+    "project_id": "gasonline-e9fc3",
+    "storage_bucket": "gasonline-e9fc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641937869102:android:f4cd75415f0c8aa8",
+        "android_client_info": {
+          "package_name": "gol.zembux.com.gasonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641937869102-e3bm91ujv026q0q3vna1mp7tvop2o7fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gol.zembux.com.gasonline",
+            "certificate_hash": "b3bb4afcb9d907d091039e29f530cb60bb11287c"
+          }
+        },
+        {
+          "client_id": "641937869102-56vs6ru0qa8bulgoka2l5o4hnn8htnoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYjePRcmtnEaqZFE2wH-9OvviZuyQU20Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641937869102-56vs6ru0qa8bulgoka2l5o4hnn8htnoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
