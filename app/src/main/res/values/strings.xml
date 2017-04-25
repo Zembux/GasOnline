@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">GasOnline</string>
     <string name="facebook_app_id">814160095400486</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+    <string name="cancel_login">Se ha cancelado el inicio</string>
+    <string name="error_login">Error al iniciar</string>
+    <string name="title_activity_almacenamiento">Almacenamiento</string>
+    <string name="error_imagen">Error en la imagen</string>
 </resources>
