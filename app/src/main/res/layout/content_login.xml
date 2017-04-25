@@ -7,21 +7,31 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="gol.zembux.com.gasonline.Login"
     tools:showIn="@layout/activity_login">
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Iniciar Sesión"
-        android:textAppearance="@android:style/TextAppearance.Holo"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="16dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Title"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="16dp" />
 
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/loginButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="242dp" />
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="242dp" />
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

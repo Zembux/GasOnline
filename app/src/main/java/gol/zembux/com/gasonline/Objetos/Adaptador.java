@@ -5,4 +5,5 @@ package gol.zembux.com.gasonline.Objetos;
  */
 
 public class Adaptador {
+
 }
